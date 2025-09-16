@@ -67,17 +67,19 @@ python main_code.py
 
 This script will automatically load AIS data, detect anomalies, fetch satellite images, and run the deep learning models.
 
------
-
 ## 📂 Project Structure
 
-  * `main_code.py`: The main script that orchestrates the entire pipeline.
-  * `unet_model.h5`: The pre-trained U-Net model.
-  * `deeplabv3_model.h5`: The pre-trained DeepLabV3+ model.
-  * `oil_spill_images.npy`: Sample dataset of satellite images.
-  * `oil_spill_masks.npy`: Ground truth masks for the images.
-  * `requirements.txt`: List of all Python dependencies.
-  * `docs/`: Project documentation and reports.
+The repository is organized to facilitate easy navigation and understanding of the project's components.
+
+  * `docs/`: Contains project documentation, reports, and other relevant academic materials.
+  * `website/`: Holds the files for the web-based user interface, including HTML, CSS, and JavaScript.
+  * `DeeplabV3.ipynb`: Jupyter Notebook for the DeepLabV3+ model implementation and experimentation.
+  * `U_Net.ipynb`: Jupyter Notebook for the U-Net model implementation and experimentation.
+  * `Hybrid.ipynb`: Jupyter Notebook detailing the hybrid model that combines UNET and DeepLabV3+ for enhanced detection.
+  * `FinalOutput.ipynb`: A script for running the complete detection pipeline and generating the final output.
+  * `CSV_Filter.csv`: Raw AIS data file used for initial filtering.
+  * `filtered_ais_data.csv`: Preprocessed AIS data used for anomaly detection.
+  * `requirements.txt`: A list of all Python dependencies required to run the project.
 
 ## 📈 Testing & Evaluation
 
