@@ -1,0 +1,9 @@
+# Core libraries for deep learning and data processing
+tensorflow~=2.x
+keras
+numpy
+pandas
+scikit-learn
+opencv-python
+matplotlib
+Flask # Optional for the web interface
